@@ -1,5 +1,14 @@
 @import './utils.scss';
 
+@font-face {
+    font-family: Lato;
+    src: url('fonts/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: RobotoMono;
+    src: url('fonts/RobotoMono-Regular.ttf');
+}
+
 body {
     transition: .2s;
     margin: 0;
@@ -32,7 +41,6 @@ h1, label, span, h6 {
     border-color: var(--border);
 }
 .buttonAct {
-    font-family: Calibri;
     font-weight: 600;
     color: #e7e7e7;
     height: 27px;
@@ -45,4 +53,10 @@ h1, label, span, h6 {
 }
 .buttonAct:active {
     background-color: var(--buttonPressed);
+}
+.tms, .switch, #empty, li, .infoBox {
+    font-family: RobotoMono;
+}
+.form input, h1, h6, .buttonAct{
+    font-family: Lato;
 }

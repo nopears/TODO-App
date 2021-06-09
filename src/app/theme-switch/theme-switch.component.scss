@@ -3,7 +3,6 @@
     display: inline-block;
     width: 60px;
     height: 34px;
-    font-family: monospace;
     font-size: 1.2em;
     user-select: none;
     outline-width: 2px;
@@ -69,6 +68,5 @@ input:checked + .slider:before {
     margin-top: 20px;
 }
 .tms {
-    font-family: monospace;
     font-size: 1.5em;
 }

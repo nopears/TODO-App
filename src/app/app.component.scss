@@ -1,6 +1,5 @@
 .wrapper {
     h1 {
-        font-family: Calibri;
         font-size: 4em;
         font-weight: 300;
         text-align: center;
@@ -10,7 +9,6 @@
         user-select: none;
     }
     h6 {
-        font-family: Calibri;
         margin: 5px;
     }
     app-todo-form {
@@ -21,6 +19,7 @@
 
     .infoBox {
         margin-top: 20px;
+        font-size: 0.8em;
     }
 
 }    

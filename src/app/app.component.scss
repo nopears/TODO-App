@@ -1,4 +1,7 @@
 .wrapper {
+    app-todo{
+        width: inherit;
+    }
     h1 {
         font-size: 4em;
         font-weight: 300;
@@ -16,6 +19,8 @@
     }
     display: grid;
     justify-content: center;
+    width: 500px;
+    margin: auto;
 
     .infoBox {
         margin-top: 20px;
@@ -23,3 +28,8 @@
     }
 
 }    
+@media screen and (max-width:500px) {
+    .wrapper {
+        width: 100%;
+    }
+}

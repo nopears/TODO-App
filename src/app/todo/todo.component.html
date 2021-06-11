@@ -1,4 +1,4 @@
-<div>
+<div class="todoWrap">
     <ul class="todos_ul" *ngIf="appService.todoList?.length; else emptyList">
   
         <li *ngFor="let todo of appService.todoList; let i = index">

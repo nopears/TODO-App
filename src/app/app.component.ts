@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TODO App';
-  author = 'Gregor Zhilich';
-  version = '0.0.2';
+  author = '@nopears';
+  version = '0.0.3';
 }
